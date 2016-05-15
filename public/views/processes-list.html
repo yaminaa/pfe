@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>processes list</title>
+</head>
+<body>
+<div class="processes">
+<form>
+<table style="width:50%">
+<thead>
+<tr>
+<th>id</th>
+<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="process in processes">
+<td></td>
+<td></td>
+<td><a ng-click="editProcess()" class="btn btn-small btn-primary">edit</a></td>
+<td><a ng-click="deleteProcess()" class="btn btn-small btn-danger">delete</a></td>
+</tr>
+</tbody>
+</table>
+<a ng-click="createProcess()" class="btn btn-small">create new process</a>
+</form>
+</class>
+</body>
+</html>
